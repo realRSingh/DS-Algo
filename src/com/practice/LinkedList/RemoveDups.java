@@ -24,7 +24,7 @@ public class RemoveDups {
             if (hashSet.contains(node.data)) {
                 previous.next = node.next;
             } else {
-                hashSet.add(node.data);
+                hashSet.add((Integer) node.data);
                 previous = node;
             }
             node = node.next;

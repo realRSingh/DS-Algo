@@ -1,16 +1,16 @@
 package com.practice.LinkedList;
 
-public class LinkedListNode {
+public class LinkedListNode<T> {
     public LinkedListNode next, prev, last;
-    public int data;
+    public T data;
 
-    public LinkedListNode(int d, LinkedListNode n, LinkedListNode p) {
+    public LinkedListNode(T d, LinkedListNode n, LinkedListNode p) {
         data = d;
         setNext(n);
         setPrevious(n);
     }
 
-    public LinkedListNode(int data) {
+    public LinkedListNode(T data) {
         this.data = data;
     }
 
