@@ -12,8 +12,8 @@ public class KthLastElement {
         n3.next = n4;
         n4.next = n5;
         n5.next = null;
-        kthLastRecursive(head, 5);
-        kthLastIterative(head, 3);
+        kthLastRecursive(head, 2);
+        //kthLastIterative(head, 3);
     }
 
     /*Very Important Approach*/
